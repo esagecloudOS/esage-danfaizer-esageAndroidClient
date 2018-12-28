@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abiquo.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="AbiquoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/q"
+        android:label=""
+        android:logo="@drawable/abiquologo" >
+        <activity
+            android:name="com.abiquo.android.SplashActivity"            
+            android:label=""
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="MainActivity"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name="PreferencesActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>

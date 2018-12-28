@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="@string/pref_api_settings" >
+        <EditTextPreference
+                android:title="@string/pref_api_url"
+                android:summary="@string/pref_api_url_desc"
+                android:defaultValue="192.168.1.40"
+                android:key="prefapiurl"/>
+        <EditTextPreference
+                android:title="@string/pref_api_port"
+                android:summary="@string/pref_api_port_desc"
+                android:inputType="number"
+                android:defaultValue="443"
+                android:key="prefapiport"/>
+        <EditTextPreference
+                android:title="@string/pref_api_path"
+                android:summary="@string/pref_api_path_desc"
+                android:defaultValue="/api"
+                android:key="prefapipath"/>
+        <EditTextPreference
+                android:title="@string/pref_api_ssl"
+                android:summary="@string/pref_api_ssl_desc"
+                android:defaultValue="Yes"
+                android:key="prefapissl"/>
+        <EditTextPreference
+                android:title="@string/pref_abiquo_version"
+                android:summary="@string/pref_abiquo_version_desc"
+                android:defaultValue="2.6"
+                android:key="prefabiquoversion"/>
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_user_settings" >
+        <EditTextPreference
+                android:title="@string/pref_user_username"
+                android:summary="@string/pref_user_username_desc"
+                android:defaultValue="admin"
+                android:key="prefuserusername"/>
+        <EditTextPreference
+                android:title="@string/pref_user_password"
+                android:summary="@string/pref_user_password_desc"
+                android:inputType="textPassword"
+                android:defaultValue="xabiquo"
+                android:key="prefuserpassword"/>
+    </PreferenceCategory> 
+    
+</PreferenceScreen>

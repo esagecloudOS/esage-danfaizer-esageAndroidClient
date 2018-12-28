@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Abiquo Viewer</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="abiquologodescription">Abiquo logo</string>
+    
+    <!-- Action bar -->
+    <string name="action_enterprises">Enterprises</string>
+    <string name="action_virtualdatacenters">Virtual Data Centers</string>
+    <string name="action_virtualappiances">Virtual Appliances</string>
+    <string name="action_events">Events</string>
+    
+    <!-- Event View layour-->
+    <string name="event_action_label">Action:</string>
+    <string name="event_enterprise_label">Enterprise:</string>
+    <string name="event_performedby_label">Performed by:</string>
+    <string name="event_timestamp_label">Timestamp:</string>
+    <string name="event_severity_label">Severity:</string>
+    
+    <!-- Preferences -->
+    <string name="pref_title">Connection</string>
+    <string name="pref_api_settings">Abiquo API server settings</string>
+    <string name="pref_api_url">API url</string>
+    <string name="pref_api_url_desc">IP or DNS name where API is serving requests</string>
+    <string name="pref_api_port">API port</string>
+    <string name="pref_api_port_desc">Port number where the Abiquo API is listening</string>
+    <string name="pref_api_path">API path</string>
+    <string name="pref_api_path_desc">Path of the Abiquo API</string>
+    <string name="pref_api_ssl">API SSL connection</string>
+    <string name="pref_api_ssl_desc">Default: Yes</string>
+    <string name="pref_abiquo_version">Abiquo version</string>
+    <string name="pref_abiquo_version_desc">Default: 2.6</string>   
+    <string name="pref_user_settings">Abiquo user settings</string>
+    <string name="pref_user_username">Username</string>
+    <string name="pref_user_username_desc">Abiquo username</string>
+    <string name="pref_user_password">Password</string>
+    <string name="pref_user_password_desc">Abiquo password</string>
+    <string name="pref_app_settings">App settings</string>
+    <string name="connect_button">Connect to Abiquo</string>
+
+</resources>
